@@ -40,8 +40,11 @@ INSTALLED_APPS = [
     #third party
     'djoser',
     'rest_framework',
+    'channels',
     #my apps
-    'chat'
+    'chat',
+    'account',
+    'auth'
 ]
 
 MIDDLEWARE = [
